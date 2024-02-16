@@ -6,17 +6,27 @@
         <option value="7">7</option>
         <option value="8">8</option>
         <option value="9">9</option>
-        <option value="10" selected="selected">10</option>
+        <option value="10">10</option>
         <option value="11">11</option>
-        <option value="12">12</option>
+        <option value="12" selected="selected">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
     </select>
+    &middot;&middot;&middot;Number of characters
     <br>
-    <input type="checkbox" name="uppercase">Uppercase
     <br>
-    <input type="checkbox" name="numbers">Numbers
+    <input type="checkbox" name="uppercase">&middot;&middot;&middot;&middot;&middot;&middot;&middot;Uppercase
     <br>
-    <input type="checkbox" name="special">Special character
+    <br>
+    <input type="checkbox" name="numbers">&middot;&middot;&middot;&middot;&middot;&middot;&middot;Numbers
+    <br>
+    <br>
+    <input type="checkbox" name="special">&middot;&middot;&middot;&middot;&middot;&middot;&middot;Special character
+    <br>
     <br>
 
     <input type="submit" value="Generator Password">
 </form>
+<br>
+<a href="{% url 'about' %}">About this App</a>
